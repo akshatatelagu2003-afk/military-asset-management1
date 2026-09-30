@@ -1,0 +1,29 @@
+# Node.js / React (Frontend)
+node_modules/
+build/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Java / Spring Boot (Backend)
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.mvn/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.project
+*.classpath
+*.settings/
+
+# OS Files
+Thumbs.db
+.DS_Store
