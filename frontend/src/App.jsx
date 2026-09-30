@@ -23,7 +23,7 @@ const Placeholder = ({ title }) => (
 const App = () => {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/military-asset-management1/">
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
